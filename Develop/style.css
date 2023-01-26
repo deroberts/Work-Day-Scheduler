@@ -21,6 +21,7 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+/* can delete from here down */
 .description{
   white-space: pre-wrap;
 }
