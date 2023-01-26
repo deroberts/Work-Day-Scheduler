@@ -36,7 +36,7 @@ const savedCalendarNotes = JSON.parse(localStorage.getItem("saves"));
       $.each(hours, function (i, time) {
         $.each(savedCalendarNotes, function (j, val) {
           if (time === val.time) {
-            var noteEl = $(`[data-time=${time}]`);
+            let noteEl = $(`[data-time=${time}]`);
             //set the note field
             noteEl.val(val.note);
           }
@@ -91,7 +91,6 @@ const savedCalendarNotes = JSON.parse(localStorage.getItem("saves"));
     
     });
   
-  
     //get selected input value
     $(".save").on("click", function () {
       //save selected time and input to value
@@ -108,6 +107,7 @@ const savedCalendarNotes = JSON.parse(localStorage.getItem("saves"));
     //run the function
     addPlan();
   });
+  
   
 
   

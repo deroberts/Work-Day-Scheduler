@@ -31,6 +31,17 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+.container {
+  background-color:lightblue;;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  width: 100%;
+
+}
+
 /* can delete from here down */
 .description{
   white-space: pre-wrap;
@@ -38,6 +49,7 @@ textarea{
 
 .time-block{
   text-align: center;
+  margin: 0 auto;
   border-radius: 15px;
 }
 
@@ -53,21 +65,6 @@ textarea{
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
-/* .past {
-  background-color: #d3d3d39f;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
-} */
 
 .saveBtn {
   border-left: 1px solid black;
