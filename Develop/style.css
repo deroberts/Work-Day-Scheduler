@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Silkscreen', cursive;
+  background-color: lightblue;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  background-color: lightblue;
   font-size: 16px;
   line-height: 1;
 }
@@ -18,6 +27,7 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
+  margin: 0;
   border-bottom: 10px solid black;
 }
 
@@ -34,7 +44,8 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  margin : 0;
 }
 
 .hour {
@@ -43,8 +54,8 @@ textarea{
   border-top: 1px dashed #000000;
 }
 
-.past {
-  background-color: #d3d3d3;
+/* .past {
+  background-color: #d3d3d39f;
   color: white;
 }
 
@@ -56,7 +67,7 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
-}
+} */
 
 .saveBtn {
   border-left: 1px solid black;
